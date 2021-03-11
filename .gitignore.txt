@@ -1,0 +1,2 @@
+ExperimentsDesign/ExperimentsDesign/obj
+ExperimentsDesign/ExperimentsDesign/bin
