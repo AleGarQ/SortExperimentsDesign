@@ -9,7 +9,7 @@ namespace ExperimentsDesign
             
         }
 
-        public void sort(long[] arr) 
+        public void insSort(long[] arr) 
         {
             long n = arr.Length;
             for (long i = 1; i < n; ++i)
@@ -24,6 +24,11 @@ namespace ExperimentsDesign
                 }
                 arr[j + 1] = key;
             }
+
+        }
+
+        public static void Main()
+        {
 
         }
     }

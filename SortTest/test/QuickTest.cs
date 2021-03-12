@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace SortTest
+namespace SortTest.test
 {
     [TestClass]
-    public class UnitTest1
+    public class QuickTest
     {
         [TestMethod]
         public void TestMethod1()

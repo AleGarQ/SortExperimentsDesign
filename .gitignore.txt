@@ -1,2 +1,2 @@
-ExperimentsDesign/ExperimentsDesign/obj
-ExperimentsDesign/ExperimentsDesign/bin
+ExperimentsDesign/obj
+ExperimentsDesign/bin
