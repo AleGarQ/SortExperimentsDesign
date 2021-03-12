@@ -18,3 +18,7 @@ C:\Users\alejo\source\repos\ExperimentsDesign\SortTest\bin\Debug\Microsoft.Visua
 C:\Users\alejo\source\repos\ExperimentsDesign\SortTest\obj\Debug\SortTest.csproj.CopyComplete
 C:\Users\alejo\source\repos\ExperimentsDesign\SortTest\obj\Debug\SortTest.dll
 C:\Users\alejo\source\repos\ExperimentsDesign\SortTest\obj\Debug\SortTest.pdb
+C:\Users\prestamo\Documents\Integrador\SortExperimentsDesign\SortTest\obj\Debug\SortTest.csprojAssemblyReference.cache
+C:\Users\prestamo\Documents\Integrador\SortExperimentsDesign\SortTest\obj\Debug\SortTest.csproj.CoreCompileInputs.cache
+C:\Users\prestamo\Documents\Integrador\SortExperimentsDesign\SortTest\obj\Debug\SortTest.dll
+C:\Users\prestamo\Documents\Integrador\SortExperimentsDesign\SortTest\obj\Debug\SortTest.pdb
