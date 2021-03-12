@@ -21,6 +21,62 @@ namespace SortTest.test
             CollectionAssert.AreEqual(elements, elements2);
         }
 
+        [TestMethod]
+        public void Test100asc()
+        {
+            long[] array = new long[100];
+            for (long i = 0; i < 100; i++)
+            {
+                array[i] = i;
+            }
+            long[] array2 = array;
+            InsertionTest1 sort = new InsertionTest1();
+            sort.insSort(array);
+            CollectionAssert.AreEqual(array, array2);
+        }
+
+        [TestMethod]
+        public void Test1000asc()
+        {
+            long[] array = new long[1000];
+            for (long i = 0; i < 1000; i++)
+            {
+                array[i] = i;
+            }
+            long[] array2 = array;
+            InsertionTest1 sort = new InsertionTest1();
+            sort.insSort(array);
+            CollectionAssert.AreEqual(array, array2);
+        }
+
+        [TestMethod]
+        public void Test10000asc()
+        {
+            long[] array = new long[10000];
+            for (long i = 0; i < 10000; i++)
+            {
+                array[i] = i;
+            }
+            long[] array2 = array;
+            InsertionTest1 sort = new InsertionTest1();
+            sort.insSort(array);
+            CollectionAssert.AreEqual(array, array2);
+        }
+
+        [TestMethod]
+        public void Test1000000asc()
+        {
+            long[] array = new long[1000000];
+            for (long i = 0; i < 1000000; i++)
+            {
+                array[i] = i;
+            }
+            long[] array2 = array;
+            InsertionTest1 sort = new InsertionTest1();
+            sort.insSort(array);
+            CollectionAssert.AreEqual(array, array2);
+        }
+
 
         [TestMethod]
         public void Test100desc()
