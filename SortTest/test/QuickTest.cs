@@ -68,5 +68,74 @@ namespace SortTest.test
             QuickSort sort = new QuickSort();
             CollectionAssert.AreEqual(array, array2);
         }
+
+        //descen
+        [TestMethod]
+
+        public void TestMethod10desc()
+        {
+            long[] array = new long[10];
+            long[] array2 = array;
+            for (long i = 9; i >= 0; i--)
+            {
+                array[i] = i;
+                array2[9 - i] = i;
+            }
+            QuickSort sort = new QuickSort();
+            sort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(array, array2);
+
+        }
+
+        [TestMethod]
+
+        public void TestMethod100desc()
+        {
+            long[] array = new long[100];
+            long[] array2 = array;
+            for (long i = 99; i >= 0; i--)
+            {
+                array[i] = i;
+                array2[99 - i] = i;
+            }
+            QuickSort sort = new QuickSort();
+            sort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(array, array2);
+
+        }
+
+        [TestMethod]
+
+        public void TestMethod1000desc()
+        {
+            long[] array = new long[1000];
+            long[] array2 = array;
+            for (long i = 999; i >= 0; i--)
+            {
+                array[i] = i;
+                array2[999 - i] = i;
+            }
+            QuickSort sort = new QuickSort();
+            sort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(array, array2);
+
+        }
+
+        [TestMethod]
+
+        public void TestMethod10000desc()
+        {
+            long[] array = new long[10000];
+            long[] array2 = array;
+            for (long i = 9999; i >= 0; i--)
+            {
+                array[i] = i;
+                array2[9999 - i] = i;
+            }
+            QuickSort sort = new QuickSort();
+            sort.quickSort(array, 0, array.Length - 1);
+            CollectionAssert.AreEqual(array, array2);
+
+        }
     }
 }
