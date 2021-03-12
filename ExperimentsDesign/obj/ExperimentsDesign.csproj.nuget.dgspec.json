@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alejo\\source\\repos\\ExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj": {}
+    "C:\\Users\\Windows 10\\Desktop\\SortExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alejo\\source\\repos\\ExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj": {
+    "C:\\Users\\Windows 10\\Desktop\\SortExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alejo\\source\\repos\\ExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\Desktop\\SortExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj",
         "projectName": "ExperimentsDesign",
-        "projectPath": "C:\\Users\\alejo\\source\\repos\\ExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj",
-        "packagesPath": "C:\\Users\\alejo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alejo\\source\\repos\\ExperimentsDesign\\ExperimentsDesign\\obj\\",
+        "projectPath": "C:\\Users\\Windows 10\\Desktop\\SortExperimentsDesign\\ExperimentsDesign\\ExperimentsDesign.csproj",
+        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows 10\\Desktop\\SortExperimentsDesign\\ExperimentsDesign\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
