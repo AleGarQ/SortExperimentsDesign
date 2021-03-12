@@ -1,25 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ExperimentsDesign.model
+namespace SortTest.test
 {
-    class QuickSort
+    public class QuickSort
     {
-
-        public void sort(long[] array, long low, long high)
-        {
-            if (low < high)
-            {
-                long partitionIndex = Partition(array, low, high);
-
-                sort(array, low, partitionIndex - 1);
-                sort(array, partitionIndex + 1, high);
-            }
-        }
-
         public QuickSort() { }
-        static long Partition(long[] array, long low, long high)
+        static long Partition(long[] array, long low,
+                                     long high)
         {
             long pivot = array[high];
 
@@ -44,8 +31,15 @@ namespace ExperimentsDesign.model
             return lowIndex + 1;
         }
 
+        public void quickSort(long[] array, long low, long high)
+        {
+            if (low < high)
+            {
+                long partitionIndex = Partition(array, low, high);
 
-
-
+                quickSort(array, low, partitionIndex - 1);
+                quickSort(array, partitionIndex + 1, high);
+            }
+        }
     }
 }

@@ -49,9 +49,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="test\QuickTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test\InsertionTest.cs" />
+    <Compile Include="test\QuickTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -61,6 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExperimentsDesign.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExperimentsDesign1\ExperimentsDesign.csproj">
+      <Project>{afabc581-8486-47d9-9a56-bb63a41ef748}</Project>
+      <Name>ExperimentsDesign</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

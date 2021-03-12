@@ -14,7 +14,7 @@ namespace SortTest.test
         public void TestInsertion()
         {
             long[] elements = { 2, 1 };
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(elements);
             Console.Write(elements);
             long[] elements2 = { 1, 2 };
@@ -30,7 +30,7 @@ namespace SortTest.test
                 array[i] = i;
             }
             long[] array2 = array;
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -44,7 +44,7 @@ namespace SortTest.test
                 array[i] = i;
             }
             long[] array2 = array;
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -58,7 +58,7 @@ namespace SortTest.test
                 array[i] = i;
             }
             long[] array2 = array;
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -72,7 +72,7 @@ namespace SortTest.test
                 array[i] = i;
             }
             long[] array2 = array;
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -88,7 +88,7 @@ namespace SortTest.test
                 array[i] = i;
                 array2[99 - i] = i;
             }
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -103,7 +103,7 @@ namespace SortTest.test
                 array[i] = i;
                 array2[999 - i] = i;
             }
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
 
@@ -119,7 +119,7 @@ namespace SortTest.test
                 array[i] = i;
                 array2[9999 - i] = i;
             }
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
@@ -134,7 +134,7 @@ namespace SortTest.test
                 array[i] = i;
                 array2[999999 - i] = i;
             }
-            InsertionTest sort = new InsertionTest();
+            InsertionSort sort = new InsertionSort();
             sort.insSort(array);
             CollectionAssert.AreEqual(array, array2);
         }
