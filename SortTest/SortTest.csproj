@@ -49,15 +49,19 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="test\QuickTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test\InsertionTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExperimentsDesign\ExperimentsDesign.csproj">
-      <Project>{637ee999-c646-43e2-808e-42a009dded86}</Project>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExperimentsDesign1\ExperimentsDesign.csproj">
+      <Project>{59e7a196-3610-4678-81ae-7f67a1341d5d}</Project>
       <Name>ExperimentsDesign</Name>
     </ProjectReference>
   </ItemGroup>
