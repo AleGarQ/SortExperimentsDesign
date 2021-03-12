@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentsDesign", "ExperimentsDesign\ExperimentsDesign.csproj", "{637EE999-C646-43E2-808E-42A009DDED86}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortTest", "SortTest\SortTest.csproj", "{26303B70-BCD6-4542-A7FE-7FD392379C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentsDesign", "ExperimentsDesign1\ExperimentsDesign.csproj", "{59E7A196-3610-4678-81AE-7F67A1341D5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{637EE999-C646-43E2-808E-42A009DDED86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{637EE999-C646-43E2-808E-42A009DDED86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{637EE999-C646-43E2-808E-42A009DDED86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{637EE999-C646-43E2-808E-42A009DDED86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{26303B70-BCD6-4542-A7FE-7FD392379C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{26303B70-BCD6-4542-A7FE-7FD392379C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26303B70-BCD6-4542-A7FE-7FD392379C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26303B70-BCD6-4542-A7FE-7FD392379C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E7A196-3610-4678-81AE-7F67A1341D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E7A196-3610-4678-81AE-7F67A1341D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E7A196-3610-4678-81AE-7F67A1341D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E7A196-3610-4678-81AE-7F67A1341D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
