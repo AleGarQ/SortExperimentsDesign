@@ -7,7 +7,7 @@ using System.Text;
 namespace SortTest.test
 {
     [TestClass]
-    public class UnitTest1
+    public class InsertionTest
     {
 
         [TestMethod]
