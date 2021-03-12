@@ -143,31 +143,6 @@ namespace SortTest.test
 
         public void TestMethod10rand()
         {
-            long[] array = new long[10];
-            Random rnd = new Random();
-            Boolean ordered = true;
-            for (long i = 0; i < 10; i++)
-            {
-                array[i] = rnd.Next(0, 20);
-            }
-            QuickSort sort = new QuickSort();
-            sort.quickSort(array, 0, array.Length - 1);
-            for (long i = 1; i < 10; i++)
-            {
-                if (array[i - 1] > array[i])
-                {
-                    ordered = false;
-
-                    break;
-                }
-            }
-            Assert.IsTrue(ordered);
-        }
-
-        [TestMethod]
-
-        public void TestMethod100rand()
-        {
             long[] array = new long[100];
             Random rnd = new Random();
             Boolean ordered = true;
@@ -182,7 +157,7 @@ namespace SortTest.test
                 if (array[i - 1] > array[i])
                 {
                     ordered = false;
-                    Console.Write(array[i - 1] + " " + array[i]);
+
                     break;
                 }
             }
@@ -207,6 +182,7 @@ namespace SortTest.test
                 if (array[i - 1] > array[i])
                 {
                     ordered = false;
+                    Console.Write(array[i - 1] + " " + array[i]);
                     break;
                 }
             }
@@ -216,6 +192,30 @@ namespace SortTest.test
         [TestMethod]
 
         public void TestMethod10000rand()
+        {
+            long[] array = new long[10000];
+            Random rnd = new Random();
+            Boolean ordered = true;
+            for (long i = 0; i < 10000; i++)
+            {
+                array[i] = rnd.Next(0, 20000);
+            }
+            QuickSort sort = new QuickSort();
+            sort.quickSort(array, 0, array.Length - 1);
+            for (long i = 1; i < 10000; i++)
+            {
+                if (array[i - 1] > array[i])
+                {
+                    ordered = false;
+                    break;
+                }
+            }
+            Assert.IsTrue(ordered);
+        }
+
+        [TestMethod]
+
+        public void TestMethod100000rand()
         {
             long[] array = new long[10000];
             Random rnd = new Random();
