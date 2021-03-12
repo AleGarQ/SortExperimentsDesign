@@ -5,8 +5,7 @@ namespace SortTest.test
     public class QuickSort
     {
         public QuickSort() { }
-        static long Partition(long[] array, long low,
-                                     long high)
+        static long Partition(long[] array, long low, long high)
         {
             long pivot = array[high];
 
