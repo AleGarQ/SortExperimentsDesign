@@ -5,3 +5,10 @@ C:\Users\alejo\source\repos\ExperimentsDesign\ExperimentsDesign1\obj\Debug\Exper
 C:\Users\alejo\source\repos\ExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign.csproj.CoreCompileInputs.cache
 C:\Users\alejo\source\repos\ExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign1.exe
 C:\Users\alejo\source\repos\ExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign1.pdb
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\bin\Debug\ExperimentsDesign1.exe.config
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\bin\Debug\ExperimentsDesign1.exe
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\bin\Debug\ExperimentsDesign1.pdb
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign.csprojAssemblyReference.cache
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign1.exe
+C:\Users\Windows 10\Desktop\SortExperimentsDesign\ExperimentsDesign1\obj\Debug\ExperimentsDesign1.pdb
