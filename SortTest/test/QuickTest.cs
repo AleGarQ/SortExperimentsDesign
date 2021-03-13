@@ -73,14 +73,14 @@ namespace SortTest.test
         //descen
         [TestMethod]
 
-        public void TestMethod10desc()
+        public void TestMethod1000000desc()
         {
-            long[] array = new long[10];
+            long[] array = new long[1000000];
             long[] array2 = array;
-            for (long i = 9; i >= 0; i--)
+            for (long i = 999999; i >= 0; i--)
             {
                 array[i] = i;
-                array2[9 - i] = i;
+                array2[999999 - i] = i;
             }
             QuickSort sort = new QuickSort();
             sort.quickSort(array, 0, array.Length - 1);
@@ -141,7 +141,7 @@ namespace SortTest.test
         //random
         [TestMethod]
 
-        public void TestMethod10rand()
+        public void TestMethod100rand()
         {
             long[] array = new long[100];
             Random rnd = new Random();
@@ -215,18 +215,18 @@ namespace SortTest.test
 
         [TestMethod]
 
-        public void TestMethod100000rand()
+        public void TestMethod1000000rand()
         {
-            long[] array = new long[10000];
+            long[] array = new long[1000000];
             Random rnd = new Random();
             Boolean ordered = true;
-            for (long i = 0; i < 10000; i++)
+            for (long i = 0; i < 1000000; i++)
             {
                 array[i] = rnd.Next(0, 20000);
             }
             QuickSort sort = new QuickSort();
             sort.quickSort(array, 0, array.Length - 1);
-            for (long i = 1; i < 10000; i++)
+            for (long i = 1; i < 1000000; i++)
             {
                 if (array[i - 1] > array[i])
                 {
